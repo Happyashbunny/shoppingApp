@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Navigation from './Navigation';
+// import Navigation from './Navigation';
 import reportWebVitals from './reportWebVitals';
+// import Header from './Header';
+import Homepage from './Homepage';
+import { Fragment } from 'react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navigation />
+    <Homepage/>
   </React.StrictMode>
 );
 

@@ -12,7 +12,7 @@
 #navigationBar{
     background-color: transparent;
     margin: 0px;
-    position: absolute;
+    /* position: absolute; */
     width: 98%;
 }
 
@@ -34,7 +34,7 @@ body{
 
 img{
     display: inline-block;
-    width:105%;
+    width:102%;
     height: 100%;
 }
 
@@ -59,13 +59,13 @@ img{
     z-index: -1; */
 }
 
-#loginForm h4{
+#loginForm h4, #signUpForm h4{
     margin: 0px 0px 10px 0px;
     font-size: larger;
     
 }
 
-#loginForm label{
+#loginForm label, #signUpForm label{
     font-family:'Times New Roman', Times, serif;
     font-weight: large;
     font-size: larger;
@@ -73,13 +73,13 @@ img{
 
 }
 
-#loginForm input{
+#loginForm input, #signUpForm input{
     width: 100%;
     height: 35px;
     margin-bottom: 15px;
 }
 
-#loginForm button{
+#loginForm button, #signUpForm button{
     padding: 12px;
     background: linear-gradient(to right, red, yellow);
     border-radius: 10px;
@@ -105,17 +105,18 @@ img{
 
 #signUp span{
     position: absolute;
-   background-color: blue;
-   color: aliceblue;
-   font-weight: bold;
-   padding: 9px 12px 9px 12px;
-   float: inline-end;
-   margin-top: 0px;
-   /* left: 356px; */
-   top: 0px;
-   right: 0px;
-
-   /* bottom: 452px; */
-   cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 9px 12px 9px 12px;
+    float: inline-end;
+    margin-top: 0px;
+    /* left: 356px; */
+    top: 0px;
+    right: 0px;
+    /* bottom: 452px; */
+    cursor: pointer;
 }
+
+
 

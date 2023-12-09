@@ -1,0 +1,26 @@
+h1{
+    display: inline;
+    font-size: 50px;
+    letter-spacing: -2px;
+    padding: 3px;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+span{
+    font-size: 30px;
+    position: absolute;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    line-height: default;
+    right: 10px;
+}
+
+#header{
+    box-shadow: 0 4px 10px 10px aliceblue ;
+    /* border-bottom: 1px solid black; */
+    background-color: aliceblue;
+
+}

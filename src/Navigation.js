@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import "./Navigation.css";
+import Footer from "./Footer";
 
 
 export default function Navigation() {
@@ -75,7 +76,7 @@ export default function Navigation() {
             <div id="signUp">
                 <span onClick={() => crossBtnHndlr(false)}>&times;</span>
                 <h1>Good to have you back</h1>
-                <form id="loginForm" onSubmit={lgBtnHndlr}>
+                <form id="signUpForm" onSubmit={lgBtnHndlr}>
                     <label>Firstname</label><br/>
                     <input type="text" placeholder="Enter first name"></input><br/>
                     <label>Lastname</label><br/>
@@ -86,8 +87,9 @@ export default function Navigation() {
                     <input type="password" placeholder="Enter your password"></input>
                     <button onClick={() => modalCloser(false)}>Lets go</button>
                 </form>
-
             </div>
+
+            <Footer/>
         </Fragment>
         
     )

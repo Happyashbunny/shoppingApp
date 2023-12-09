@@ -1,0 +1,10 @@
+#footer{
+    display: block;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;    
+    position: absolute;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
