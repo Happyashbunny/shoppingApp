@@ -10,7 +10,7 @@
 }
 
 #root{
-    background-color: rgb(201, 187, 187);
+    background: cornsilk;
     filter: brightness(1.2), contrast(110%);
 }
 
@@ -67,6 +67,7 @@
     margin: 0px 30px 0px 30px;
     overflow: hidden;
     overflow-x: hidden;
+    background: transparent;
 }
 
 .trendingSect{
@@ -86,8 +87,8 @@
     height: 150px;
     padding: 1px;
     cursor: pointer;
-    border: 4px solid linen;
-    box-shadow: 3px 3px 3px 3px whitesmoke;
+    border: 4px solid transparent;
+    box-shadow: 3px 3px 3px 3px transparent;
     
 }
 
@@ -95,6 +96,7 @@
     margin: 20px;
     font-family: 'Pacifico', cursive;
     font-size: xx-large;
+    color: black;
 }
 
 #trendingSectionRight{
@@ -121,6 +123,7 @@
     background-color: burlywood;
     display: flex;
     align-items: center;
+    border: 10px solid whitesmoke;
 }
 
 
@@ -137,7 +140,7 @@
 }
 
 .rollerDiv{
-    background-color: whitesmoke;
+    background: #e5e5e5;
     padding: 20px;
 }
 

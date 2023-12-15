@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import Navigation from './Navigation';
 import reportWebVitals from './reportWebVitals';
-// import Header from './Header';
-import Homepage from './Homepage';
-import { Fragment } from 'react';
+// import Homepage from './Homepage';
+import Header from './Header';
+// import Homepage from './Homepage';
+// import { Fragment } from 'react';
+import ProductPage from './ProductPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Homepage/>
+    <ProductPage/>
   </React.StrictMode>
 );
 
