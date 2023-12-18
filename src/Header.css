@@ -24,3 +24,7 @@ span{
     background-color: aliceblue;
 
 }
+
+#cartBtn{
+    cursor: pointer;
+}

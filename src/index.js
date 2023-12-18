@@ -2,16 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import Navigation from './Navigation';
 import reportWebVitals from './reportWebVitals';
+// import CartList from './CartList';
 // import Homepage from './Homepage';
-import Header from './Header';
+// import Header from './Header';
 // import Homepage from './Homepage';
 // import { Fragment } from 'react';
-import ProductPage from './ProductPage';
+// import ProductPage from './ProductPage';
+import SmartCompo from './SmartCompo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ProductPage/>
+    <SmartCompo/>
+    
   </React.StrictMode>
 );
 

@@ -1,14 +1,21 @@
-h2{
+#nameOfProduct{
     text-align: center;
-    font-family: ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 
 #gridContainer{
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: 25% 75%;
     grid-template-rows: repeat(3, 29%);
     row-gap: 30px;
+    column-gap: 30px;
     height: 100%;
     padding: 1px;
 }
@@ -64,4 +71,72 @@ h2{
     width: 90%;
     height: 500px;
     margin: auto;
- }
+    column-gap: 90px;
+}
+
+#productDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ #productDescription p{
+    margin: 4%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#productDescription button{
+    width: 100%;
+    background-color: azure;
+    margin: 20px;
+    padding: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+#commentBox{
+    height: fit-content;
+}
+
+#commentBox form{
+    height: fit-content;
+    /* background-color: aquamarine; */
+}
+
+#commentInput{
+    width: 99%;
+    height: 8em;
+    margin: 2px;
+    resize: none;
+}
+
+#submitBtn{
+    margin: 2px 2px 0px 2px;
+    padding: 10px 20px 10px 20px;
+    background-color: azure;
+    border: 1px solid grey
+}
+
+#commentSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.actualComment{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 3px 0px 3px 0px;
+}
