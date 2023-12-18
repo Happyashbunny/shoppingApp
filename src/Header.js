@@ -1,10 +1,17 @@
 import React from "react";
 import "./Header.css";
 import CartList from "./CartList";
+import { redirect, useNavigate } from "react-router-dom";
 
 export default function Header() {
 
     let flag = false;
+
+    let nav = useNavigate();
+
+    const redirect = () => {
+        nav('/homepage');
+    }
 
     const cartHandler = () => {
         
@@ -27,7 +34,7 @@ export default function Header() {
 
     return(
         <div id="header">
-            <h1>Everstore</h1>
+            <h1 onClick={redirect}>Everstore</h1>
             <span id="cartBtn" onClick={cartHandler}> &#128722;</span>
             <CartList/>
         </div>

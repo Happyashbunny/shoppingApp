@@ -13,7 +13,7 @@
 .productName{
     display: inline-block;
     margin-left: 15px;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin-top: 1px;
 
 }
@@ -33,11 +33,11 @@
 }
 
 .dustbin{
-    display: inline-block;
+    display: inline;
     position: relative;
     /* bottom: 0px; */
     /* left: 0px; */
-    /* float: inline-end; */
+    float: inline-end;
     padding: 0px;
     font-weight: bolder;
     cursor: pointer;
